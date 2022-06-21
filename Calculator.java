@@ -47,6 +47,12 @@ class Main {
         System.out.println(number1 + " / " + number2 + " = " + result);
         break;
 
+      // performs percentage between numbers
+        case '%':
+		        result = percentage(number1,number2);
+		        System.out.println("Percentage = " + result);
+		        break;
+
       default:
         System.out.println("Invalid operator!");
         break;
@@ -54,4 +60,9 @@ class Main {
 
     input.close();
   }
+  
+  public static double percentage(double marks,double totalmarks)
+	{
+		return ((marks/totalmarks)*100) ;
+	}
 }
