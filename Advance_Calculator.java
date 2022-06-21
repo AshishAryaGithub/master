@@ -11,7 +11,7 @@ class Main {
     Scanner input = new Scanner(System.in);
 
     // ask users to enter operator
-    System.out.println("Choose an operator: +, -, *, or /, ^");
+    System.out.println("Choose an operator: + , - , * , or / , ^ ");
     operator = input.next().charAt(0);
 
     // ask users to enter numbers
